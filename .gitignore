@@ -1,0 +1,6 @@
+.parcel-cache
+.settings
+.sign
+dist
+node_modules
+.env

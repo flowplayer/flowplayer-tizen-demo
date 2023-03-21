@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://flowplayer.com/FlowplayerDemo" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="4rtODo5brk.FlowplayerDemo" package="4rtODo5brk" required_version="2.3"/>
+    <content src="dist/index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <icon src="largeIcon.png"/>
+    <name>FlowplayerDemo</name>
+    <tizen:profile name="tv-samsung"/>
+    <access origin="*" subdomains="true"></access>
+    <tizen:allow-navigation>*</tizen:allow-navigation>
+    <tizen:content-security-policy>script-src 'self' 'unsafe-inline';</tizen:content-security-policy>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+	<tizen:privilege name="http://tizen.org/privilege/internet" />
+    <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
