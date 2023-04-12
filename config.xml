@@ -11,5 +11,7 @@
     <tizen:content-security-policy>script-src 'self' 'unsafe-inline';</tizen:content-security-policy>
     <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
 	<tizen:privilege name="http://tizen.org/privilege/internet" />
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice" /> 
+
     <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
 </widget>
